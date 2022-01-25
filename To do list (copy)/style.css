@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.box{
+    margin-top: 100px;
+    /* width: 800px; */
+    /* margin: 0 auto;s */
+    /* border: 1px solid blue;
+     */
+    padding: 30px 50px;
+    border-radius: 8px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+}
+
+body{
+    background-color: black;
+}
+
+.title{
+    min-height: 10vh;
+}
+
+.form-inline{
+    margin-bottom: 30px !important;
+}
+
+.new-item{
+    color: black;
+}
+
+.todo-input{
+    font-size: 1.3rem;
+    margin-right: 5px;
+
+}
+
+.todo-list{
+    list-style: none;
+}
+
+
+.todo-btn{
+    padding: 9px 15px;
+}
+
+.todo{
+    display: flex;
+    margin-bottom: 15px;
+    /* margin-top: 100px; */
+    transition: all 0.3s ease;
+    justify-content: center;
+
+}
+
+.new-item{
+    width: 75%;
+    background-color:white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    font-size: 20px;
+    color: red;
+    padding-left: 15px;
+}
+
+.check-btn , .trash-btn{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: whitesmoke;
+    outline: none;
+}
+
+.fa-check, .fa-trash{
+    pointer-events: none;
+}
+
+
+
+
+
+.check-btn {
+    background-color: #0275d8;
+    margin-right: 5px;
+}
+.check-btn:focus{
+    outline: none;
+}
+
+.trash-btn {
+    background-color: #d9534f;
+}
+
+.trash-btn:focus{
+    outline: none;
+}
+.check-btn:hover{
+    background-color: #0274d8e1;   
+}
+
+.trash-btn:hover{
+    background-color: #d9544fd5;
+
+}
+
+
+.fall{
+    transform: translateY(8rem) rotate(20deg);
+    opacity: 0;
+}
+
+.checked{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    color: #ff6f67;
+    width: 10rem;
+    padding: 1rem;
+    padding: 5px;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+
